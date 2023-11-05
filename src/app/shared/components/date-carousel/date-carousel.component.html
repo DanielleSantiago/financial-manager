@@ -1,0 +1,9 @@
+<div class="container-button container-carousel">
+  <button class="button-basic button-icon" (click)="previous()">
+    <mat-icon aria-hidden="false" aria-label="Icon chevron-left" fontIcon="chevron_left"></mat-icon>
+  </button>
+  <button class="button-basic carousel">{{ meses[mesAtual] }} {{ anoAtual }}</button>
+  <button class="button-basic button-icon" (click)="next()">
+    <mat-icon aria-hidden="false" aria-label="Icon chevron-left" fontIcon="chevron_right"></mat-icon>
+  </button>
+</div>

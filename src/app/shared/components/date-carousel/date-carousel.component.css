@@ -1,0 +1,18 @@
+.container-button {
+  display: flex;
+  justify-content: center;
+}
+
+.carousel {
+  font-size: 18px;
+  width: 150px;
+}
+
+.container-carousel {
+  align-items: center;
+  display: flex;
+}
+
+.button-icon {
+  cursor: pointer;
+}
