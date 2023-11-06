@@ -2,9 +2,33 @@
   <div class="container-body">
     <app-date-carousel></app-date-carousel>
   </div>
-  <div class="row">
+  <div class="row container-body">
+    <div class="col-12 col-md-4">
+      <app-info-card title="Receitas">
+        <h1>{{ totalReceitas }}</h1>
+      </app-info-card>
+    </div>
+    <div class="col-12 col-md-4">
+      <app-info-card title="Despesas">
+        <h1>{{ totalDespesas }}</h1>
+      </app-info-card>
+    </div>
+    <div class="col-12 col-md-4">
+      <app-info-card title="Saldo">
+        <h1>{{ saldo }}</h1>
+      </app-info-card>
+    </div>
+  </div>
+  <div class="row container-body">
     <div class="col-12 col-md-6">
-      <app-card-chart></app-card-chart>
+      <app-card-chart title="Receitas por Categoria">
+        <p>Gráfico Receitas</p>
+      </app-card-chart>
+    </div>
+    <div class="col-12 col-md-6">
+      <app-card-chart title="Depesas por Categoria">
+        <p>Gráfico Despesas</p>
+      </app-card-chart>
     </div>
   </div>
 </div>

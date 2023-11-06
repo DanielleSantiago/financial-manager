@@ -14,6 +14,7 @@ import { BreadcrumbComponent } from './components/breadcrumb/breadcrumb.componen
 import { BodyComponent } from './components/body/body.component';
 import { DateCarouselComponent } from './components/date-carousel/date-carousel.component';
 import { CardChartComponent } from './components/card-chart/card-chart.component';
+import { InfoCardComponent } from './components/info-card/info-card.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { CardChartComponent } from './components/card-chart/card-chart.component
     BreadcrumbComponent,
     BodyComponent,
     DateCarouselComponent,
-    CardChartComponent
+    CardChartComponent,
+    InfoCardComponent
   ],
   imports: [
     CommonModule,
@@ -39,7 +41,8 @@ import { CardChartComponent } from './components/card-chart/card-chart.component
   exports: [
     SidebarComponent,
     DateCarouselComponent,
-    CardChartComponent
+    CardChartComponent,
+    InfoCardComponent
   ]
 })
 export class SharedModule {

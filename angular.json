@@ -25,10 +25,13 @@
               "src/assets"
             ],
             "styles": [
+              "src/styles.css",
               "@angular/material/prebuilt-themes/purple-green.css",
-              "src/styles.css"
+              "node_modules/bootstrap/dist/css/bootstrap.min.css"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/bootstrap/dist/js/bootstrap.min.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -95,5 +98,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "ce7883b1-150e-4e3f-af91-0ba6de5c40d6"
   }
 }

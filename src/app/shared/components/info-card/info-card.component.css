@@ -13,9 +13,3 @@
   justify-content: center;
   display: flex;
 }
-
-.footer {
-  justify-content: end;
-  display: flex;
-  padding: 5px;
-}
