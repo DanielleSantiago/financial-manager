@@ -15,6 +15,7 @@ import { BodyComponent } from './components/body/body.component';
 import { DateCarouselComponent } from './components/date-carousel/date-carousel.component';
 import { CardChartComponent } from './components/card-chart/card-chart.component';
 import { InfoCardComponent } from './components/info-card/info-card.component';
+import { MatCardModule } from '@angular/material/card';
 
 @NgModule({
   declarations: [
@@ -37,6 +38,7 @@ import { InfoCardComponent } from './components/info-card/info-card.component';
     MatSidenavModule,
     MatCheckboxModule,
     MatListModule,
+    MatCardModule
   ],
   exports: [
     SidebarComponent,
